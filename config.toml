@@ -1,14 +1,31 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseurl = "https://example.com/"
+languageCode = "en-US"
 title = "Hello"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
 theme = "sustain"
 
+[permalinks]
+  post = "/:year/:month/:day/:slug"
 
-[[menu.main]]
-  name = "Forside"
-  weight = 1
-  identifier = "forside"
-  url = "/"
+[params]
+  avatar = "alienavatar.jpeg"
+  author = "X"
+  description = "I really love to dance"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = [/css/main.css]
+  custom_js  = []
+
+[params.social]
+  Github        = "username"
+  Email         = "email@example.com"
+  Twitter       = "username"
+  LinkedIn      = "username"
+  Stackoverflow = "username"
+
   
 [[menu.main]]
   name = "portfolio"
