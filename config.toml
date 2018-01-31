@@ -4,21 +4,26 @@ title = "Hello"
 theme = "sustain"
 
 
-## Main Menu
 [[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
+  name = "Forside"
+  weight = 1
+  identifier = "forside"
+  url = "/"
   
 [[menu.main]]
   name = "portfolio"
   identifier = "portfolio"
-  weight = 200
+  weight = 2
   url = "/portfolio/"
   
 [[menu.main]]
+  name = "Om"
+  identifier = "om"
+  weight = 3
+  url = "/om/"
+  
+  [[menu.main]]
   name = "Kontakt"
   identifier = "kontakt"
-  weight = 300
+  weight = 4
   url = "/kontakt/"
